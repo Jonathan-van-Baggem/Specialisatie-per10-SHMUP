@@ -1,21 +1,31 @@
 fileFormatVersion: 2
-guid: 0d4b6fc4fcdbded43b98117094c3605d
-timeCreated: 1512674964
+guid: 15331639e63e92a48b2427b1138f18f2
+timeCreated: 1513018492
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Player_Ship
+    100000: Gun
+    100002: Turret
+    100004: //RootNode
+    400000: Gun
+    400002: Turret
+    400004: //RootNode
+    2300000: Gun
+    2300002: Turret
+    2300004: //RootNode
+    3300000: Gun
+    3300002: Turret
+    3300004: //RootNode
+    4300000: Turret_Base
+    4300002: Turret
+    4300004: Gun
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MAT_Ship_Player
-    second: {fileID: 2100000, guid: 047b8f256ff87424aaccc9b19ef3ecfa, type: 2}
+      name: lambert1
+    second: {fileID: 2100000, guid: 4ebc36b2a631df84f9d5bcdf9365499f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
